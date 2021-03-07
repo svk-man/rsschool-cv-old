@@ -1,11 +1,11 @@
 # Kravchenko Sergey
 ## Junior Frontend Developer
 
-![Kravchenko Sergey. Junior Frontend Developer](/assets/images/person-circle-cropped.png "Kravchenko Sergey. Junior Frontend Developer")
+![Kravchenko Sergey. Junior Frontend Developer](assets/images/person-circle-cropped-230x230.png "Kravchenko Sergey. Junior Frontend Developer")
 
-- kravchenko.sgv@gmail.com
-- https://github.com/svk-man
-- https://www.linkedin.com/in/sergey-kravchenko-9ba309159/
+- <kravchenko.sgv@gmail.com>
+- <https://github.com/svk-man>
+- <https://www.linkedin.com/in/sergey-kravchenko-9ba309159/>
 
 Highly interested in creating new things and passionate about practical aspects of coding. Strong knowledges and experience in HTML, CSS and JavaScript.
 
