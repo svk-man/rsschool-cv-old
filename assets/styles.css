@@ -119,3 +119,13 @@ body {
     padding-left: 15px;
     margin: 16px 0;
 }
+
+.section-languages {
+    height: 60px;
+}
+
+.section-languages .section-info > ul {
+    padding: 0;
+    padding-left: 15px;
+    margin: 16px 0;
+}
