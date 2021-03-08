@@ -89,3 +89,13 @@ body {
 .section-code {
     height: 200px;
 }
+
+.section-education {
+    height: 170px;
+}
+
+.section-education .section-info > ul {
+    padding: 0;
+    padding-left: 15px;
+    margin: 16px 0;
+}
