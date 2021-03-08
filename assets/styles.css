@@ -31,27 +31,46 @@ body {
 }
 
 .header-contacts {
-    list-style: none;
-    margin: 0;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 414px;
-    height: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 414px;
+  height: 50px;
 }
 
 .header-contacts li {
-    width: 50%;
+  width: 50%;
 }
 
 .header-contacts li i {
-    font-size: 18px;
-    vertical-align: middle;
+  font-size: 18px;
+  vertical-align: middle;
 }
 
 .header-contacts li span {
-    font-size: 12px;
-    margin-left: 15px;
-    vertical-align: middle;
+  font-size: 12px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.section-summary {
+  height: 100px;
+}
+
+.section-title {
+  width: 230px;
+}
+
+.section-info {
+  max-width: 518px;
 }
