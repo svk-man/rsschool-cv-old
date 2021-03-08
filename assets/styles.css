@@ -55,6 +55,15 @@ body ul {
   width: 50%;
 }
 
+.header-contacts a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-contacts a:hover {
+    color: #0033CC;
+}
+
 .header-contacts li i {
   font-size: 18px;
   vertical-align: middle;
