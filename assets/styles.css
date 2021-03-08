@@ -85,3 +85,7 @@ body {
     padding-left: 15px;
     margin: 16px 0;
 }
+
+.section-code {
+    height: 200px;
+}
