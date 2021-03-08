@@ -140,3 +140,15 @@ body ul {
 .section-interests {
   height: 90px;
 }
+
+.footer {
+  background-color: #000000;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  padding: 6px 0;
+  font-size: 10px;
+  color: #ffffff;
+}
