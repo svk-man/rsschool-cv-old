@@ -20,6 +20,11 @@ body ul {
 
 .header-thumb {
   float: left;
+  margin: 0;
+}
+
+.header-thumb figcaption {
+  text-align: center;
 }
 
 .header-thumb img {
@@ -49,7 +54,7 @@ body ul {
   flex-direction: column;
   flex-wrap: wrap;
   width: 480px;
-  height: 50px;
+  height: 60px;
 }
 
 .header-contacts li {
