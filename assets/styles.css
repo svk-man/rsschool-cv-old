@@ -29,3 +29,29 @@ body {
 .header-title {
   margin: 0;
 }
+
+.header-contacts {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 414px;
+    height: 50px;
+}
+
+.header-contacts li {
+    width: 50%;
+}
+
+.header-contacts li i {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.header-contacts li span {
+    font-size: 12px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
