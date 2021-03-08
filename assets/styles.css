@@ -1,11 +1,16 @@
 body {
   margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+body p,
+body ul {
+    font-size: 14px;
 }
 
 .container {
   width: 768px;
   margin: 0 auto;
-  background-color: #66ffff;
 }
 
 .header {
@@ -28,6 +33,11 @@ body {
 
 .header-title {
   margin: 0;
+  font-family: 'Cabin', sans-serif;
+}
+
+.header h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .header-contacts {
@@ -37,7 +47,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 414px;
+  width: 480px;
   height: 50px;
 }
 
@@ -70,6 +80,7 @@ body {
 
 .section-title {
   width: 230px;
+  font-family: 'Cabin', sans-serif;
 }
 
 .section-info {
@@ -88,6 +99,11 @@ body {
 
 .section-code {
   height: 200px;
+}
+
+.section-code pre {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
 }
 
 .section-education {
