@@ -109,3 +109,13 @@ body {
     padding-left: 15px;
     margin: 16px 0;
 }
+
+.section-courses {
+    height: 100px;
+}
+
+.section-courses .section-info > ul {
+    padding: 0;
+    padding-left: 15px;
+    margin: 16px 0;
+}
