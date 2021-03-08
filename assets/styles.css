@@ -60,6 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-content: flex-start;
   padding: 10px;
 }
 
@@ -73,4 +74,14 @@ body {
 
 .section-info {
   max-width: 518px;
+}
+
+.section-skills {
+    height: 100px;
+}
+
+.section-skills .section-info ul {
+    padding: 0;
+    padding-left: 15px;
+    margin: 16px 0;
 }
