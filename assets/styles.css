@@ -99,3 +99,13 @@ body {
     padding-left: 15px;
     margin: 16px 0;
 }
+
+.section-work {
+    height: 240px;
+}
+
+.section-work .section-info > ul {
+    padding: 0;
+    padding-left: 15px;
+    margin: 16px 0;
+}
