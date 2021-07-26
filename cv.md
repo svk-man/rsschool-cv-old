@@ -35,14 +35,14 @@ Highly interested in creating new things and passionate about practical aspects 
     - Electronics and Computer Science Faculty
     - Software of automated systems Department
     - Software engineering
-        - Doctor of technical sciences (09/2020 - 06/2024)
+        - Postgraduate student (09/2020 - 06/2024)
         - Master's degree (09/2018 - 06/2020)
         - Bachelor's degree (09/2012 - 06/2018)
     - Russia, Volgograd
 
 ### Work Experience
 
-- PIT SIBINTEK LLC (intensive technology company SIBINTEK)
+- IC SIBINTEK LLC (Internet Company SIBINTEK)
     - Specialist Adviser
     - 09/2019 - present
     - Russia, Volgograd
@@ -59,7 +59,7 @@ Highly interested in creating new things and passionate about practical aspects 
 
 - RS School
     - JS / FRONT-END
-    - 02/2021 - present
+    - 07/2021 - present
     - Online
 
 ### Languages
