@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+body p,
+body ul {
+    font-size: 14px;
+}
+
+.container {
+  width: 768px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+
+.header-thumb {
+  float: left;
+  margin: 0;
+}
+
+.header-thumb figcaption {
+  text-align: center;
+}
+
+.header-thumb img {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.header-content {
+  margin-left: 230px;
+  padding: 10px;
+}
+
+.header-title {
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+}
+
+.header h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.header-contacts {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 480px;
+  height: 60px;
+}
+
+.header-contacts li {
+  width: 50%;
+}
+
+.header-contacts a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-contacts a:hover {
+    color: #0033CC;
+}
+
+.header-contacts li i {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.header-contacts li span {
+  font-size: 12px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 10px;
+}
+
+.section-summary {
+  height: 80px;
+}
+
+.section-title {
+  width: 230px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.section-info {
+  max-width: 518px;
+}
+
+.section-skills {
+  height: 100px;
+}
+
+.section-info > ul {
+  padding: 0;
+  padding-left: 15px;
+  margin: 16px 0;
+}
+
+.section-code {
+  height: 190px;
+}
+
+.section-code pre {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+}
+
+.section-education {
+  height: 170px;
+}
+
+.section-work {
+  height: 240px;
+}
+
+.section-courses {
+  height: 100px;
+}
+
+.section-languages {
+  height: 60px;
+}
+
+.section-interests {
+  height: 90px;
+}
+
+.footer {
+  background-color: #000000;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  padding: 6px 0;
+  font-size: 10px;
+  color: #ffffff;
+}
