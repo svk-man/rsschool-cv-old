@@ -1,7 +1,7 @@
 # Kravchenko Sergey
 ## Junior Frontend Developer
 
-![Kravchenko Sergey. Junior Frontend Developer](assets/images/person-circle-cropped-230x230.png "Kravchenko Sergey. Junior Frontend Developer")
+![Kravchenko Sergey. Junior Frontend Developer](assets/img/person-circle-cropped-230x230.png "Kravchenko Sergey. Junior Frontend Developer")
 
 - <kravchenko.sgv@gmail.com>
 - <https://github.com/svk-man>
