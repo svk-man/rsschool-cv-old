@@ -96,4 +96,55 @@
 .avatar-personal__img {
   width: 100%;
 }
+
+.contacts {
+  width: 192px;
+}
+
+.contacts__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts__item-mail {
+  background: url("./assets/svg/mail-icon.svg") no-repeat top 3px right;
+}
+
+.contacts__item-phone {
+  background: url("./assets/svg/phone-icon.svg") no-repeat top 3px right;
+}
+
+.contacts__item-linkedin {
+  background: url("./assets/svg/linkedin-icon.svg") no-repeat top 3px right;
+}
+
+.contacts__item-figma {
+  background: url("./assets/svg/figma-icon.svg") no-repeat top 3px right;
+}
+
+.contacts__item-github {
+  background: url("./assets/svg/github-icon.svg") no-repeat top 3px right;
+}
+
+.contacts__item-location {
+  background: url("./assets/svg/location-icon.svg") no-repeat top 3px right;
+}
+
+.contacts__link {
+  display: inline-block;
+  width: 100%;
+  font-family: Poppins;
+  font-size: 10px;
+  line-height: 15px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.contacts__link:hover,
+.contacts__link:active,
+.contacts__link:visited {
+  color: #3D59BD;
+  text-decoration: underline;
+}
 /* header styles end */
