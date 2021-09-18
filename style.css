@@ -43,4 +43,9 @@
 .footer {
   border: 1px solid blue;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
 /* default styles end */
