@@ -195,6 +195,26 @@
   color: #000000;
 }
 
+.item-section__title--projects {
+  font-family: Gaegu;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.item-section__subtitle--projects {
+  margin: 0;
+  margin-bottom: 4px;
+  color: #000000;
+}
+
+.item-section__subtitle--projects {
+  font-family: Gaegu;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+}
+
 .item-section__location {
   margin: 0;
   font-family: Poppins;
@@ -258,5 +278,41 @@
   font-size: 8px;
   line-height: 12px;
   color: #000000;
+}
+
+.links-item-section {
+  margin-top: 4px;
+}
+
+.links-item-section__list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 18px;
+}
+
+.links-item-section__item--github {
+  background: url("./assets/svg/github-link-icon.svg") no-repeat bottom left;
+}
+
+.links-item-section__item--figma {
+  background: url("./assets/svg/figma-link-icon.svg") no-repeat bottom left;
+}
+
+.links-item-section__item--file-text {
+  background: url("./assets/svg/file-text-link-icon.svg") no-repeat bottom left;
+}
+
+.links-item-section__item--youtube {
+  background: url("./assets/svg/youtube-link-icon.svg") no-repeat bottom left;
+}
+
+.links-item-section__link {
+  padding-left: 18px;
+  width: 100%;
+  font-family: Poppins;
+  font-size: 9px;
+  line-height: 13px;
+  color: #3D59BD;
 }
 /* section styles end */
