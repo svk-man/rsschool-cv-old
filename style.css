@@ -35,3 +35,12 @@
   font-weight: 700;
 }
 /* fonts end */
+
+/* default styles start */
+.header,
+.main,
+.section,
+.footer {
+  border: 1px solid blue;
+}
+/* default styles end */
