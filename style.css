@@ -48,6 +48,7 @@
 }
 
 .body {
+  margin: 0;
   font-family: Poppins;
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
@@ -71,17 +72,15 @@
 /* default styles end */
 
 /* header styles start */
-.header-container {
-  display: flex;
-  justify-content: space-between;
+.header {
   padding-top: 20px;
 }
 
 .personal {
-  position: relative;
   box-sizing: border-box;
-  width: 830px;
-  padding-right: 200px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 25px;
 }
 
 .personal__title {
@@ -98,15 +97,9 @@
   line-height: 24px;
 }
 
-.personal__avatar {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
 .avatar-personal {
-  width: 150px;
-  height: 150px;
+  min-width: 145px;
+  max-width: 145px;
 }
 
 .avatar-personal__img {
@@ -114,7 +107,7 @@
 }
 
 .contacts {
-  width: 300px;
+  min-width: 300px;
 }
 
 .contacts__list {
@@ -175,7 +168,7 @@
 /* section styles start */
 .section {
   margin-bottom: 20px;
-  width: 500px;
+  max-width: 450px;
 }
 
 .section:last-child {
@@ -351,3 +344,19 @@
   color: var(--active-text-color);
 }
 /* section styles end */
+
+/* media styles start */
+@media screen and (max-width: 900px) {
+  .personal {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+  }
+
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+  }
+}
+/* media styles end */
