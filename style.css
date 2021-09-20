@@ -47,6 +47,10 @@
   --tag-text-color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .body {
   margin: 0;
   font-family: Poppins;
@@ -74,6 +78,36 @@
 /* header styles start */
 .header {
   padding-top: 20px;
+}
+
+.navigation__list {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__item {
+  list-style: none;
+  padding: 0 25px;
+}
+
+.navigation__link {
+  display: inline-block;
+  padding: 2px 8px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--active-text-color);
+  text-decoration: none;
+}
+
+.navigation__link:hover {
+  color: var(--tag-text-color);
+  background-color: var(--tag-bg-color);
+  border-radius: 10px;
 }
 
 .personal {
