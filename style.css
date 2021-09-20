@@ -74,30 +74,28 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding-top: 20px;
 }
 
 .personal {
   position: relative;
   box-sizing: border-box;
-  width: 750px;
-  padding-top: 15px;
-  padding-right: 210px;
+  width: 830px;
+  padding-right: 200px;
 }
 
 .personal__title {
   margin: 0;
-  margin-bottom: 15px;
-  font-family: Pacifico;
+  font-family: Poppins;
   font-size: 45px;
-  line-height: 35px;
+  line-height: 46px;
   color: var(--active-text-color);
 }
 
 .personal__desc {
   margin: 0;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .personal__avatar {
@@ -255,14 +253,12 @@
   margin: 0;
   font-size: 16px;
   line-height: 21px;
-  color: var(--secondary-text-color);
 }
 
 .item-section__period {
   margin: 0;
   font-size: 14px;
   line-height: 18px;
-  color: var(--secondary-text-color);
   text-transform: uppercase;
 }
 
@@ -271,7 +267,6 @@
   margin-top: 10px;
   font-size: 14px;
   line-height: 18px;
-  color: var(--secondary-text-color);
 }
 
 .item-section__tag {
@@ -291,7 +286,6 @@
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
-  color: var(--secondary-text-color);
 }
 
 .skills-item-section__list {
@@ -309,7 +303,7 @@
 .skills-item-section__item::before {
   content: "";
   position: absolute;
-  top: 12px;
+  top: 10px;
   width: 6px;
   height: 6px;
   background-color: var(--active-text-color);
@@ -334,19 +328,19 @@
 }
 
 .links-item-section__item--github {
-  background: url("./assets/svg/github-link-icon.svg") no-repeat bottom left;
+  background: url("./assets/svg/github-link-icon.svg") no-repeat center left;
 }
 
 .links-item-section__item--figma {
-  background: url("./assets/svg/figma-link-icon.svg") no-repeat bottom left;
+  background: url("./assets/svg/figma-link-icon.svg") no-repeat center left;
 }
 
 .links-item-section__item--file-text {
-  background: url("./assets/svg/file-text-link-icon.svg") no-repeat bottom left;
+  background: url("./assets/svg/file-text-link-icon.svg") no-repeat center left;
 }
 
 .links-item-section__item--youtube {
-  background: url("./assets/svg/youtube-link-icon.svg") no-repeat bottom left;
+  background: url("./assets/svg/youtube-link-icon.svg") no-repeat center left;
 }
 
 .links-item-section__link {
