@@ -10,34 +10,48 @@
 <body class="body">
   <header class="header">
     <div class="container">
+      <div class="navigation-container">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="#contacts" class="navigation__link">contacts</a></li>
+            <li class="navigation__item"><a href="#education" class="navigation__link">education</a></li>
+            <li class="navigation__item"><a href="#experience" class="navigation__link">experience</a></li>
+            <li class="navigation__item"><a href="#projects" class="navigation__link">projects</a></li>
+            <li class="navigation__item"><a href="#skills" class="navigation__link">skills</a></li>
+            <li class="navigation__item"><a href="#tools" class="navigation__link">tools & technologies</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger-menu">
+          <div class="hamburger-menu__line"></div>
+          <div class="hamburger-menu__line"></div>
+          <div class="hamburger-menu__line"></div>
+        </div>
+      </div>
       <div class="personal">
         <div class="personal__info">
-          <h1 class="personal__title">Daniel Duvanå</h1>
+          <h1 class="personal__title">Kravchenko Sergey</h1>
 
-          <p class="personal__desc">Hi! I’m an interaction designer and  developer, interested in building helpful and meaningful products.</p>
+          <p class="personal__desc">Highly interested in creating new things and passionate about practical aspects of coding. Good knowledges and experience in HTML, CSS and JavaScript.</p>
         </div>
         <div class="personal__avatar avatar-personal">
-          <img class="avatar-personal__img" src="./assets/img/person-circle-cropped-230x230.png" alt="Daniel Duvanå">
+          <img class="avatar-personal__img" src="./assets/img/person-circle-cropped-230x230.png" alt="Kravchenko Sergey">
         </div>
-        <div class="personal__contacts contacts">
+        <div class="personal__contacts contacts" id="contacts">
           <ul class="contacts__list">
-            <li class="contacts__item contacts__item-mail">
-              <a class="contacts__link" href="mailto:daniel.duvana@gmail.com">daniel.duvana@gmail.com</a>
+            <li class="contacts__item contacts__item-discord">
+              <a class="contacts__link" href="#" target="_blank">discord: @svk-man</a>
             </li>
-            <li class="contacts__item contacts__item-phone">
-              <a class="contacts__link" href="tel:+46 709 81 70 96">+46 709 81 70 96</a>
+            <li class="contacts__item contacts__item-mail">
+              <a class="contacts__link" href="mailto:kravchenko.sgv@gmail.com">kravchenko.sgv@gmail.com</a>
             </li>
             <li class="contacts__item contacts__item-linkedin">
-              <a class="contacts__link" href="linkedin.com/in/daniel-duvana" target="_blank">linkedin.com/in/daniel-duvana</a>
-            </li>
-            <li class="contacts__item contacts__item-figma">
-              <a class="contacts__link" href="figma.com/@danne" target="_blank">figma.com/@danne</a>
+              <a class="contacts__link" href="https://www.linkedin.com/in/sergey-kravchenko-9ba309159/" target="_blank">linkedin.com/in/sergey-kravchenko/</a>
             </li>
             <li class="contacts__item contacts__item-github">
-              <a class="contacts__link" href="github.com/Daniel-BD" target="_blank">github.com/Daniel-BD</a>
+              <a class="contacts__link" href="https://github.com/svk-man" target="_blank">https://github.com/svk-man</a>
             </li>
             <li class="contacts__item contacts__item-location">
-              <a class="contacts__link" href="#">Gothenburg, Sweden</a>
+              <a class="contacts__link" href="#">Russia, Volgograd</a>
             </li>
           </ul>
         </div>             
@@ -47,7 +61,7 @@
   <main class="main">
     <div class="container main-container">
     <div class="main-container__item">
-    <section class="section">
+    <section class="section" id="education">
         <h2 class="section__title">Education</h2>
         <ul class="section__list">
           <li class="section__item item-section">
@@ -62,7 +76,7 @@
           </li>
         </ul>
     </section>
-    <section class="section">
+    <section class="section" id="experience">
         <h2 class="section__title">Experience</h2>
         <ul class="section__list">
           <li class="section__item item-section">
@@ -114,7 +128,7 @@
     </section>
   </div>
   <div class="main-container__item">
-    <section class="section">
+    <section class="section" id="projects">
         <h2 class="section__title">Projects</h2>
         <ul class="section__list">
           <li class="section__item item-section">
@@ -170,7 +184,7 @@
           </li>
         </ul>
     </section>
-    <section class="section">
+    <section class="section" id="skills">
         <h2 class="section__title section__title--small">Skills</h2>
         <ul class="section__list section__list--inline">
           <li class="section__item item-section"><span class="item-section__tag">Interaction Design</span></li>
@@ -179,7 +193,7 @@
           <li class="section__item item-section"><span class="item-section__tag">Software Engineering</span></li>
         </ul>
     </section>
-    <section class="section">
+    <section class="section" id="tools">
         <h2 class="section__title section__title--small">Tools & technology</h2>
         <ul class="section__list section__list--inline">
           <li class="section__item item-section"><span class="item-section__tag">Figma</span></li>
@@ -198,5 +212,6 @@
   <footer class="footer">
     <div class="container"></div>
   </footer>
+  <script src="./script.js"></script>
 </body>
 </html>

@@ -47,6 +47,10 @@
   --tag-text-color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .body {
   margin: 0;
   font-family: Poppins;
@@ -74,6 +78,68 @@
 /* header styles start */
 .header {
   padding-top: 20px;
+}
+
+.navigation-container {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__item {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.navigation__link {
+  display: inline-block;
+  padding: 2px 8px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--active-text-color);
+  text-decoration: none;
+}
+
+.navigation__link:hover {
+  color: var(--tag-text-color);
+  background-color: var(--tag-bg-color);
+  border-radius: 10px;
+}
+
+.hamburger-menu {
+  display: none;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hamburger-menu__line {
+  width: 100%;
+  height: 3px;
+  background-color: var(--active-text-color);
+  transition: all 0.8s;
+}
+
+.open .hamburger-menu__line:first-child {
+  transform: rotateZ(-45deg) translate(-8px, 6px);
+}
+
+.open .hamburger-menu__line:nth-child(2) {
+  opacity: 0;
+}
+
+.open .hamburger-menu__line:last-child {
+  transform: rotateZ(45deg) translate(-10px, -9px);
 }
 
 .personal {
@@ -107,7 +173,7 @@
 }
 
 .contacts {
-  min-width: 300px;
+  min-width: 320px;
 }
 
 .contacts__list {
@@ -357,6 +423,39 @@
     flex-direction: column;
     align-items: center;
     row-gap: 25px;
+  }
+
+  .navigation-container {
+    position: relative;
+    height: 150px;
+  }
+
+  .navigation {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .navigation__list {
+    background-color: var(--active-text-color);
+    flex-direction: column;
+    height: 150px;
+  }
+  
+  .navigation__link {
+    color: var(--tag-text-color);
+  }
+
+  .hamburger-menu {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 2;
+    display: flex;
+  }
+
+  .hamburger-menu__line {
+    background-color: white;
   }
 }
 /* media styles end */
